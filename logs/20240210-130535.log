@@ -1,0 +1,108 @@
+Bots initialized, white: Number Piece(3), black: Value Piece(3)
+Move number 0
+Board:
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+P P P P P P P P
+R N B Q K B N R
+FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+Player 1 move: g1h3, score: -16
+Move number 1
+Board:
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . . N
+P P P P P P P P
+R N B Q K B . R
+FEN: rnbqkbnr/pppppppp/8/8/8/7N/PPPPPPPP/RNBQKB1R b KQkq - 1 1
+Black move: g7g5, score: -137
+Move number 2
+Board:
+r n b q k b n r
+p p p p p p . p
+. . . . . . . .
+. . . . . . p .
+. . . . . . . .
+. . . . . . . N
+P P P P P P P P
+R N B Q K B . R
+FEN: rnbqkbnr/pppppp1p/8/6p1/8/7N/PPPPPPPP/RNBQKB1R w KQkq - 0 2
+Player 1 move: h3g5, score: -15
+Move number 3
+Board:
+r n b q k b n r
+p p p p p p . p
+. . . . . . . .
+. . . . . . N .
+. . . . . . . .
+. . . . . . . .
+P P P P P P P P
+R N B Q K B . R
+FEN: rnbqkbnr/pppppp1p/8/6N1/8/8/PPPPPPPP/RNBQKB1R b KQkq - 0 2
+Black move: g8h6, score: -137
+Move number 4
+Board:
+r n b q k b . r
+p p p p p p . p
+. . . . . . . n
+. . . . . . N .
+. . . . . . . .
+. . . . . . . .
+P P P P P P P P
+R N B Q K B . R
+FEN: rnbqkb1r/pppppp1p/7n/6N1/8/8/PPPPPPPP/RNBQKB1R w KQkq - 1 3
+Player 1 move: g5e6, score: -14
+Move number 5
+Board:
+r n b q k b . r
+p p p p p p . p
+. . . . N . . n
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+P P P P P P P P
+R N B Q K B . R
+FEN: rnbqkb1r/pppppp1p/4N2n/8/8/8/PPPPPPPP/RNBQKB1R b KQkq - 2 3
+Black move: h8g8, score: -129
+Move number 6
+Board:
+r n b q k b r .
+p p p p p p . p
+. . . . N . . n
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+P P P P P P P P
+R N B Q K B . R
+FEN: rnbqkbr1/pppppp1p/4N2n/8/8/8/PPPPPPPP/RNBQKB1R w KQq - 3 4
+Player 1 move: e6f8, score: -14
+Move number 7
+Board:
+r n b q k N r .
+p p p p p p . p
+. . . . . . . n
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+P P P P P P P P
+R N B Q K B . R
+FEN: rnbqkNr1/pppppp1p/7n/8/8/8/PPPPPPPP/RNBQKB1R b KQq - 0 4
+Black move: g8g3, score: -129
+Move number 8
+Board:
+r n b q k N . .
+p p p p p p . p
+. . . . . . . n
+. . . . . . . .
+. . . . . . . .
+. . . . . . r .
+P P P P P P P P
+R N B Q K B . R
+FEN: rnbqkN2/pppppp1p/7n/8/8/6r1/PPPPPPPP/RNBQKB1R w KQq - 1 5

@@ -1,0 +1,809 @@
+Bots initialized, white: Random, black: RandomMove number 0Board:
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+P P P P P P P P
+R N B Q K B N RFEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1Move number 1Board:
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . P . . . . .
+P P . P P P P P
+R N B Q K B N RFEN: rnbqkbnr/pppppppp/8/8/8/2P5/PP1PPPPP/RNBQKBNR b KQkq - 0 1Move number 2Board:
+r n b q k b n r
+p . p p p p p p
+. . . . . . . .
+. p . . . . . .
+. . . . . . . .
+. . P . . . . .
+P P . P P P P P
+R N B Q K B N RFEN: rnbqkbnr/p1pppppp/8/1p6/8/2P5/PP1PPPPP/RNBQKBNR w KQkq - 0 2Move number 3Board:
+r n b q k b n r
+p . p p p p p p
+. . . . . . . .
+. p . . . . . .
+. . . . . . . .
+. . P P . . . .
+P P . . P P P P
+R N B Q K B N RFEN: rnbqkbnr/p1pppppp/8/1p6/8/2PP4/PP2PPPP/RNBQKBNR b KQkq - 0 2Move number 4Board:
+r . b q k b n r
+p . p p p p p p
+n . . . . . . .
+. p . . . . . .
+. . . . . . . .
+. . P P . . . .
+P P . . P P P P
+R N B Q K B N RFEN: r1bqkbnr/p1pppppp/n7/1p6/8/2PP4/PP2PPPP/RNBQKBNR w KQkq - 1 3Move number 5Board:
+r . b q k b n r
+p . p p p p p p
+n . . . . . . .
+. p . . . . . .
+. . . . . . . .
+. . P P . . . .
+P P . B P P P P
+R N . Q K B N RFEN: r1bqkbnr/p1pppppp/n7/1p6/8/2PP4/PP1BPPPP/RN1QKBNR b KQkq - 2 3Move number 6Board:
+r . b q k b . r
+p . p p p p p p
+n . . . . . . n
+. p . . . . . .
+. . . . . . . .
+. . P P . . . .
+P P . B P P P P
+R N . Q K B N RFEN: r1bqkb1r/p1pppppp/n6n/1p6/8/2PP4/PP1BPPPP/RN1QKBNR w KQkq - 3 4Move number 7Board:
+r . b q k b . r
+p . p p p p p p
+n . . . . . . n
+. p . . . . . .
+. . P . . . . .
+. . . P . . . .
+P P . B P P P P
+R N . Q K B N RFEN: r1bqkb1r/p1pppppp/n6n/1p6/2P5/3P4/PP1BPPPP/RN1QKBNR b KQkq - 0 4Move number 8Board:
+r . b q k b . r
+p . . p p p p p
+n . . . . . . n
+. p p . . . . .
+. . P . . . . .
+. . . P . . . .
+P P . B P P P P
+R N . Q K B N RFEN: r1bqkb1r/p2ppppp/n6n/1pp5/2P5/3P4/PP1BPPPP/RN1QKBNR w KQkq - 0 5Move number 9Board:
+r . b q k b . r
+p . . p p p p p
+n . . . . . . n
+. p p . . . . .
+. . P . . . . .
+. . B P . . . .
+P P . . P P P P
+R N . Q K B N RFEN: r1bqkb1r/p2ppppp/n6n/1pp5/2P5/2BP4/PP2PPPP/RN1QKBNR b KQkq - 1 5Move number 10Board:
+r . b q k b . r
+p . . p p . p p
+n . . . . p . n
+. p p . . . . .
+. . P . . . . .
+. . B P . . . .
+P P . . P P P P
+R N . Q K B N RFEN: r1bqkb1r/p2pp1pp/n4p1n/1pp5/2P5/2BP4/PP2PPPP/RN1QKBNR w KQkq - 0 6Move number 11Board:
+r . b q k b . r
+p . . p p . p p
+n . . . . p . n
+. p p . . . . .
+. . P . . . . .
+. Q B P . . . .
+P P . . P P P P
+R N . . K B N RFEN: r1bqkb1r/p2pp1pp/n4p1n/1pp5/2P5/1QBP4/PP2PPPP/RN2KBNR b KQkq - 1 6Move number 12Board:
+r . b q k b . r
+p . . p p . p p
+. . . . . p . n
+. p p . . . . .
+. n P . . . . .
+. Q B P . . . .
+P P . . P P P P
+R N . . K B N RFEN: r1bqkb1r/p2pp1pp/5p1n/1pp5/1nP5/1QBP4/PP2PPPP/RN2KBNR w KQkq - 2 7Move number 13Board:
+r . b q k b . r
+p . . p p . p p
+. . . . . p . n
+. p p . B . . .
+. n P . . . . .
+. Q . P . . . .
+P P . . P P P P
+R N . . K B N RFEN: r1bqkb1r/p2pp1pp/5p1n/1pp1B3/1nP5/1Q1P4/PP2PPPP/RN2KBNR b KQkq - 3 7Move number 14Board:
+r . b q k b . r
+p . . p p . . p
+. . . . . p . n
+. p p . B . p .
+. n P . . . . .
+. Q . P . . . .
+P P . . P P P P
+R N . . K B N RFEN: r1bqkb1r/p2pp2p/5p1n/1pp1B1p1/1nP5/1Q1P4/PP2PPPP/RN2KBNR w KQkq - 0 8Move number 15Board:
+r . b q k b . r
+p . . p p . . p
+. . . . . p . n
+. p p . B . p .
+. n P . P . . .
+. Q . P . . . .
+P P . . . P P P
+R N . . K B N RFEN: r1bqkb1r/p2pp2p/5p1n/1pp1B1p1/1nP1P3/1Q1P4/PP3PPP/RN2KBNR b KQkq - 0 8Move number 16Board:
+r . b q k b . r
+p . . p p . . p
+. . . . . p . n
+. p p . B . p .
+. . P . P . . .
+. Q . n . . . .
+P P . . . P P P
+R N . . K B N RFEN: r1bqkb1r/p2pp2p/5p1n/1pp1B1p1/2P1P3/1Q1n4/PP3PPP/RN2KBNR w KQkq - 0 9Move number 17Board:
+r . b q k b . r
+p . . p p . . p
+. . . . . p . n
+. p p . B . p .
+. . P . P . . .
+. Q . B . . . .
+P P . . . P P P
+R N . . K . N RFEN: r1bqkb1r/p2pp2p/5p1n/1pp1B1p1/2P1P3/1Q1B4/PP3PPP/RN2K1NR b KQkq - 0 9Move number 18Board:
+r . b q k b . r
+p . . p p . . p
+. . . . . p . n
+. . p . B . p .
+. . p . P . . .
+. Q . B . . . .
+P P . . . P P P
+R N . . K . N RFEN: r1bqkb1r/p2pp2p/5p1n/2p1B1p1/2p1P3/1Q1B4/PP3PPP/RN2K1NR w KQkq - 0 10Move number 19Board:
+r . b q k b . r
+p . . p p . . p
+. . . . . p . n
+. . p . B . p .
+. Q p . P . . .
+. . . B . . . .
+P P . . . P P P
+R N . . K . N RFEN: r1bqkb1r/p2pp2p/5p1n/2p1B1p1/1Qp1P3/3B4/PP3PPP/RN2K1NR b KQkq - 1 10Move number 20Board:
+r . b q k b r .
+p . . p p . . p
+. . . . . p . n
+. . p . B . p .
+. Q p . P . . .
+. . . B . . . .
+P P . . . P P P
+R N . . K . N RFEN: r1bqkbr1/p2pp2p/5p1n/2p1B1p1/1Qp1P3/3B4/PP3PPP/RN2K1NR w KQq - 2 11Move number 21Board:
+r . b q k b r .
+p . . p p . . p
+. . . B . p . n
+. . p . . . p .
+. Q p . P . . .
+. . . B . . . .
+P P . . . P P P
+R N . . K . N RFEN: r1bqkbr1/p2pp2p/3B1p1n/2p3p1/1Qp1P3/3B4/PP3PPP/RN2K1NR b KQq - 3 11Move number 22Board:
+r . b q k b r .
+. . . p p . . p
+p . . B . p . n
+. . p . . . p .
+. Q p . P . . .
+. . . B . . . .
+P P . . . P P P
+R N . . K . N RFEN: r1bqkbr1/3pp2p/p2B1p1n/2p3p1/1Qp1P3/3B4/PP3PPP/RN2K1NR w KQq - 0 12Move number 23Board:
+r . b q k b r .
+. . . p p . . p
+p . . B . p . n
+. . p . . . p .
+. Q p . P . . .
+. . . B . . . .
+P P . N . P P P
+R . . . K . N RFEN: r1bqkbr1/3pp2p/p2B1p1n/2p3p1/1Qp1P3/3B4/PP1N1PPP/R3K1NR b KQq - 1 12Move number 24Board:
+r . b q k b r .
+. . . p . . . p
+p . . B . p . n
+. . p . p . p .
+. Q p . P . . .
+. . . B . . . .
+P P . N . P P P
+R . . . K . N RFEN: r1bqkbr1/3p3p/p2B1p1n/2p1p1p1/1Qp1P3/3B4/PP1N1PPP/R3K1NR w KQq - 0 13Move number 25Board:
+r . b q k B r .
+. . . p . . . p
+p . . . . p . n
+. . p . p . p .
+. Q p . P . . .
+. . . B . . . .
+P P . N . P P P
+R . . . K . N RFEN: r1bqkBr1/3p3p/p4p1n/2p1p1p1/1Qp1P3/3B4/PP1N1PPP/R3K1NR b KQq - 0 13Move number 26Board:
+r . b q k B r .
+. . . . . . . p
+p . . . . p . n
+. . p p p . p .
+. Q p . P . . .
+. . . B . . . .
+P P . N . P P P
+R . . . K . N RFEN: r1bqkBr1/7p/p4p1n/2ppp1p1/1Qp1P3/3B4/PP1N1PPP/R3K1NR w KQq - 0 14Move number 27Board:
+r . b q k B r .
+. . . . . . . p
+p . . . . p . n
+. . p p p . p .
+. Q p . P . . .
+. . . B . P . .
+P P . N . . P P
+R . . . K . N RFEN: r1bqkBr1/7p/p4p1n/2ppp1p1/1Qp1P3/3B1P2/PP1N2PP/R3K1NR b KQq - 0 14Move number 28Board:
+r . b q . k r .
+. . . . . . . p
+p . . . . p . n
+. . p p p . p .
+. Q p . P . . .
+. . . B . P . .
+P P . N . . P P
+R . . . K . N RFEN: r1bq1kr1/7p/p4p1n/2ppp1p1/1Qp1P3/3B1P2/PP1N2PP/R3K1NR w KQ - 0 15Move number 29Board:
+r . b q . k r .
+. . . . . . . p
+p . . . . p . n
+. . p p p . p .
+. Q p . P . . .
+. P . B . P . .
+P . . N . . P P
+R . . . K . N RFEN: r1bq1kr1/7p/p4p1n/2ppp1p1/1Qp1P3/1P1B1P2/P2N2PP/R3K1NR b KQ - 0 15Move number 30Board:
+r . b q . k r .
+. . . . . . . p
+p . . . . p . n
+. . p . p . p .
+. Q p . p . . .
+. P . B . P . .
+P . . N . . P P
+R . . . K . N RFEN: r1bq1kr1/7p/p4p1n/2p1p1p1/1Qp1p3/1P1B1P2/P2N2PP/R3K1NR w KQ - 0 16Move number 31Board:
+r . b q . k r .
+. . . . . . . p
+p . . . . p . n
+. . p . p . p .
+. Q p . p . . .
+. P . B . P . P
+P . . N . . P .
+R . . . K . N RFEN: r1bq1kr1/7p/p4p1n/2p1p1p1/1Qp1p3/1P1B1P1P/P2N2P1/R3K1NR b KQ - 0 16Move number 32Board:
+r . b . . k r .
+. . . . . . . p
+p q . . . p . n
+. . p . p . p .
+. Q p . p . . .
+. P . B . P . P
+P . . N . . P .
+R . . . K . N RFEN: r1b2kr1/7p/pq3p1n/2p1p1p1/1Qp1p3/1P1B1P1P/P2N2P1/R3K1NR w KQ - 1 17Move number 33Board:
+r . b . . k r .
+. . . . . . . p
+p q . . . p . n
+. . p . p . p .
+. Q p . p . . .
+. P . B . P . P
+P . . N . . P .
+. R . . K . N RFEN: r1b2kr1/7p/pq3p1n/2p1p1p1/1Qp1p3/1P1B1P1P/P2N2P1/1R2K1NR b K - 2 17Move number 34Board:
+r . b . . k r .
+. . . . . . . p
+p q . . . p . n
+. . . . p . p .
+. p p . p . . .
+. P . B . P . P
+P . . N . . P .
+. R . . K . N RFEN: r1b2kr1/7p/pq3p1n/4p1p1/1pp1p3/1P1B1P1P/P2N2P1/1R2K1NR w K - 0 18Move number 35Board:
+r . b . . k r .
+. . . . . . . p
+p q . . . p . n
+. . . . p . p .
+. p p . p . P .
+. P . B . P . P
+P . . N . . . .
+. R . . K . N RFEN: r1b2kr1/7p/pq3p1n/4p1p1/1pp1p1P1/1P1B1P1P/P2N4/1R2K1NR b K - 0 18Move number 36Board:
+r . b . . k r .
+. . . . . . . p
+p . . . . p . n
+. . . . p . p .
+. p p . p . P .
+. P . B . P . P
+P . . N . . . .
+. R . . K . q RFEN: r1b2kr1/7p/p4p1n/4p1p1/1pp1p1P1/1P1B1P1P/P2N4/1R2K1qR w K - 0 19Move number 37Board:
+r . b . . k r .
+. . . . . . . p
+p . . . . p . n
+. . . . p . p .
+. p p . p . P .
+. P . B . P . P
+P . . N K . . .
+. R . . . . q RFEN: r1b2kr1/7p/p4p1n/4p1p1/1pp1p1P1/1P1B1P1P/P2NK3/1R4qR b - - 1 19Move number 38Board:
+r . b . . k r .
+. . . . . . . p
+p q . . . p . n
+. . . . p . p .
+. p p . p . P .
+. P . B . P . P
+P . . N K . . .
+. R . . . . . RFEN: r1b2kr1/7p/pq3p1n/4p1p1/1pp1p1P1/1P1B1P1P/P2NK3/1R5R w - - 2 20Move number 39Board:
+r . b . . k r .
+. . . . . . . p
+p q . . . p . n
+. . . . p . p .
+. p p . p . P .
+. P . B . P . P
+P . . N K . . .
+. R . . . R . .FEN: r1b2kr1/7p/pq3p1n/4p1p1/1pp1p1P1/1P1B1P1P/P2NK3/1R3R2 b - - 3 20Move number 40Board:
+r . b . . k . .
+. . . . . . r p
+p q . . . p . n
+. . . . p . p .
+. p p . p . P .
+. P . B . P . P
+P . . N K . . .
+. R . . . R . .FEN: r1b2k2/6rp/pq3p1n/4p1p1/1pp1p1P1/1P1B1P1P/P2NK3/1R3R2 w - - 4 21Move number 41Board:
+r . b . . k . .
+. . . . . . r p
+p q . . . p . n
+. . . . p . p .
+. p p . p P P .
+. P . B . . . P
+P . . N K . . .
+. R . . . R . .FEN: r1b2k2/6rp/pq3p1n/4p1p1/1pp1pPP1/1P1B3P/P2NK3/1R3R2 b - - 0 21Move number 42Board:
+r . b . . k . .
+. . . . . . r p
+p q . . . p . .
+. . . . p . p .
+. p p . p P n .
+. P . B . . . P
+P . . N K . . .
+. R . . . R . .FEN: r1b2k2/6rp/pq3p2/4p1p1/1pp1pPn1/1P1B3P/P2NK3/1R3R2 w - - 0 22Move number 43Board:
+r . b . . k . .
+. . . . . . r p
+p q . . . p . .
+. . . . p . P .
+. p p . p . n .
+. P . B . . . P
+P . . N K . . .
+. R . . . R . .FEN: r1b2k2/6rp/pq3p2/4p1P1/1pp1p1n1/1P1B3P/P2NK3/1R3R2 b - - 0 22Move number 44Board:
+r . b . . k . .
+. . . . r . . p
+p q . . . p . .
+. . . . p . P .
+. p p . p . n .
+. P . B . . . P
+P . . N K . . .
+. R . . . R . .FEN: r1b2k2/4r2p/pq3p2/4p1P1/1pp1p1n1/1P1B3P/P2NK3/1R3R2 w - - 1 23Move number 45Board:
+r . b . . k . .
+. . . . r . . p
+p q . . . p . .
+. . . . p . P .
+. p p . p . n .
+. P . B . . . P
+P . . N K . . .
+. . R . . R . .FEN: r1b2k2/4r2p/pq3p2/4p1P1/1pp1p1n1/1P1B3P/P2NK3/2R2R2 b - - 2 23Move number 46Board:
+r . b . . k . .
+. . . . r . . p
+p . . . . p . .
+. . q . p . P .
+. p p . p . n .
+. P . B . . . P
+P . . N K . . .
+. . R . . R . .FEN: r1b2k2/4r2p/p4p2/2q1p1P1/1pp1p1n1/1P1B3P/P2NK3/2R2R2 w - - 3 24Move number 47Board:
+r . b . . k . .
+. . . . r . . p
+p . . . . p . .
+. . q . p . P .
+. p p . p . n .
+. P . B . R . P
+P . . N K . . .
+. . R . . . . .FEN: r1b2k2/4r2p/p4p2/2q1p1P1/1pp1p1n1/1P1B1R1P/P2NK3/2R5 b - - 4 24Move number 48Board:
+r . b . . k . .
+. r . . . . . p
+p . . . . p . .
+. . q . p . P .
+. p p . p . n .
+. P . B . R . P
+P . . N K . . .
+. . R . . . . .FEN: r1b2k2/1r5p/p4p2/2q1p1P1/1pp1p1n1/1P1B1R1P/P2NK3/2R5 w - - 5 25Move number 49Board:
+r . b . . k . .
+. r . . . . . p
+p . . . . p . .
+. . q . p . P .
+. p p . p . n .
+. P . B . R . P
+P . . N K . . .
+R . . . . . . .FEN: r1b2k2/1r5p/p4p2/2q1p1P1/1pp1p1n1/1P1B1R1P/P2NK3/R7 b - - 6 25Move number 50Board:
+r . b . . k . .
+. r . . q . . p
+p . . . . p . .
+. . . . p . P .
+. p p . p . n .
+. P . B . R . P
+P . . N K . . .
+R . . . . . . .FEN: r1b2k2/1r2q2p/p4p2/4p1P1/1pp1p1n1/1P1B1R1P/P2NK3/R7 w - - 7 26Move number 51Board:
+r . b . . k . .
+. r . . q . . p
+p . . . . p . .
+. . . . p . P .
+. p p . N . n .
+. P . B . R . P
+P . . . K . . .
+R . . . . . . .FEN: r1b2k2/1r2q2p/p4p2/4p1P1/1pp1N1n1/1P1B1R1P/P3K3/R7 b - - 0 26Move number 52Board:
+r . b . . k . .
+. r . . q . . p
+p . . . . p . .
+. . . . p . P .
+. p . . N . n .
+. p . B . R . P
+P . . . K . . .
+R . . . . . . .FEN: r1b2k2/1r2q2p/p4p2/4p1P1/1p2N1n1/1p1B1R1P/P3K3/R7 w - - 0 27Move number 53Board:
+r . b . . k . .
+. r . . q . . p
+p . . . . p . .
+. . . . p . P .
+. p . . N . n .
+. p . B . . . P
+P . . . K . . .
+R . . . . R . .FEN: r1b2k2/1r2q2p/p4p2/4p1P1/1p2N1n1/1p1B3P/P3K3/R4R2 b - - 1 27Move number 54Board:
+r . b . . . . .
+. r . . q k . p
+p . . . . p . .
+. . . . p . P .
+. p . . N . n .
+. p . B . . . P
+P . . . K . . .
+R . . . . R . .FEN: r1b5/1r2qk1p/p4p2/4p1P1/1p2N1n1/1p1B3P/P3K3/R4R2 w - - 2 28Move number 55Board:
+r . b . . . . .
+. r . . q k . p
+p . . . . p . .
+. . . . p . P .
+. p . . . . n .
+. p . B . . N P
+P . . . K . . .
+R . . . . R . .FEN: r1b5/1r2qk1p/p4p2/4p1P1/1p4n1/1p1B2NP/P3K3/R4R2 b - - 3 28Move number 56Board:
+r . b . . . . .
+. . r . q k . p
+p . . . . p . .
+. . . . p . P .
+. p . . . . n .
+. p . B . . N P
+P . . . K . . .
+R . . . . R . .FEN: r1b5/2r1qk1p/p4p2/4p1P1/1p4n1/1p1B2NP/P3K3/R4R2 w - - 4 29Move number 57Board:
+r . b . . . . .
+. . r . q k . p
+p . . . . p . .
+. . . . p B P .
+. p . . . . n .
+. p . . . . N P
+P . . . K . . .
+R . . . . R . .FEN: r1b5/2r1qk1p/p4p2/4pBP1/1p4n1/1p4NP/P3K3/R4R2 b - - 5 29Move number 58Board:
+r . b . . . . .
+. . r . q k . p
+p . . . . p . .
+. . . . p B P .
+. p . . . . n .
+. . . . . . N P
+P p . . K . . .
+R . . . . R . .FEN: r1b5/2r1qk1p/p4p2/4pBP1/1p4n1/6NP/Pp2K3/R4R2 w - - 0 30Move number 59Board:
+r . b . . . . .
+. . r . q k . p
+p . . . . p . .
+. . . . p B P .
+. p . . . . n .
+. . . . . R N P
+P p . . K . . .
+R . . . . . . .FEN: r1b5/2r1qk1p/p4p2/4pBP1/1p4n1/5RNP/Pp2K3/R7 b - - 1 30Move number 60Board:
+r . b . . . . .
+. . r . q k . p
+. . . . . p . .
+p . . . p B P .
+. p . . . . n .
+. . . . . R N P
+P p . . K . . .
+R . . . . . . .FEN: r1b5/2r1qk1p/5p2/p3pBP1/1p4n1/5RNP/Pp2K3/R7 w - - 0 31Move number 61Board:
+r . b . . . . .
+. . r . q k . p
+. . . . . p . .
+p . . . p B P .
+. p . . . . n .
+. . . . . R N P
+P p . . K . . .
+. R . . . . . .FEN: r1b5/2r1qk1p/5p2/p3pBP1/1p4n1/5RNP/Pp2K3/1R6 b - - 1 31Move number 62Board:
+r . . . . . . .
+. . r . q k . p
+. . . . . p . .
+p . . . p b P .
+. p . . . . n .
+. . . . . R N P
+P p . . K . . .
+. R . . . . . .FEN: r7/2r1qk1p/5p2/p3pbP1/1p4n1/5RNP/Pp2K3/1R6 w - - 0 32Move number 63Board:
+r . . . . . . .
+. . r . q k . p
+. . . . . p . .
+p . . . p b P .
+. p . . . . n .
+. . . . R . N P
+P p . . K . . .
+. R . . . . . .FEN: r7/2r1qk1p/5p2/p3pbP1/1p4n1/4R1NP/Pp2K3/1R6 b - - 1 32Move number 64Board:
+. . . r . . . .
+. . r . q k . p
+. . . . . p . .
+p . . . p b P .
+. p . . . . n .
+. . . . R . N P
+P p . . K . . .
+. R . . . . . .FEN: 3r4/2r1qk1p/5p2/p3pbP1/1p4n1/4R1NP/Pp2K3/1R6 w - - 2 33Move number 65Board:
+. . . r . . . .
+. . r . q k . p
+. . . . . p . .
+p . . . p b P .
+. p . . . . n .
+. . . . R . . P
+P p . . K . . .
+. R . . . . . NFEN: 3r4/2r1qk1p/5p2/p3pbP1/1p4n1/4R2P/Pp2K3/1R5N b - - 3 33Move number 66Board:
+. . . r . . . .
+. . r . q . k p
+. . . . . p . .
+p . . . p b P .
+. p . . . . n .
+. . . . R . . P
+P p . . K . . .
+. R . . . . . NFEN: 3r4/2r1q1kp/5p2/p3pbP1/1p4n1/4R2P/Pp2K3/1R5N w - - 4 34Move number 67Board:
+. . . r . . . .
+. . r . q . k p
+. . . . . p . .
+p . . . p b P .
+. p . . . . n .
+. . . . R K . P
+P p . . . . . .
+. R . . . . . NFEN: 3r4/2r1q1kp/5p2/p3pbP1/1p4n1/4RK1P/Pp6/1R5N b - - 5 34Move number 68Board:
+. . . . r . . .
+. . r . q . k p
+. . . . . p . .
+p . . . p b P .
+. p . . . . n .
+. . . . R K . P
+P p . . . . . .
+. R . . . . . NFEN: 4r3/2r1q1kp/5p2/p3pbP1/1p4n1/4RK1P/Pp6/1R5N w - - 6 35Move number 69Board:
+. . . . r . . .
+. . r . q . k p
+. . . . . p . .
+p . . . p b P .
+. p . . . . n .
+. . . . . K . P
+P p . . R . . .
+. R . . . . . NFEN: 4r3/2r1q1kp/5p2/p3pbP1/1p4n1/5K1P/Pp2R3/1R5N b - - 7 35Move number 70Board:
+. . . . . r . .
+. . r . q . k p
+. . . . . p . .
+p . . . p b P .
+. p . . . . n .
+. . . . . K . P
+P p . . R . . .
+. R . . . . . NFEN: 5r2/2r1q1kp/5p2/p3pbP1/1p4n1/5K1P/Pp2R3/1R5N w - - 8 36Move number 71Board:
+. . . . . r . .
+. . r . q . k p
+. . . . . p . .
+p . . . p b P .
+. p . . . . n .
+. . . . . K . P
+P p . . . . R .
+. R . . . . . NFEN: 5r2/2r1q1kp/5p2/p3pbP1/1p4n1/5K1P/Pp4R1/1R5N b - - 9 36Move number 72Board:
+. . . . . r . .
+. . r . q . k p
+. . . . . p b .
+p . . . p . P .
+. p . . . . n .
+. . . . . K . P
+P p . . . . R .
+. R . . . . . NFEN: 5r2/2r1q1kp/5pb1/p3p1P1/1p4n1/5K1P/Pp4R1/1R5N w - - 10 37Move number 73Board:
+. . . . . r . .
+. . r . q . k p
+. . . . . p b .
+p . . . p . P .
+. p . . . . n .
+. . . . . K . P
+P p . . . . R .
+. . . . . R . NFEN: 5r2/2r1q1kp/5pb1/p3p1P1/1p4n1/5K1P/Pp4R1/5R1N b - - 11 37Move number 74Board:
+. . . . . r . .
+. . r . . . k p
+. . . q . p b .
+p . . . p . P .
+. p . . . . n .
+. . . . . K . P
+P p . . . . R .
+. . . . . R . NFEN: 5r2/2r3kp/3q1pb1/p3p1P1/1p4n1/5K1P/Pp4R1/5R1N w - - 12 38Move number 75Board:
+. . . . . r . .
+. . r . . . k p
+. . . q . p b .
+p . . . p . P .
+. p . . . . n .
+. . . . . K . P
+P p R . . . . .
+. . . . . R . NFEN: 5r2/2r3kp/3q1pb1/p3p1P1/1p4n1/5K1P/PpR5/5R1N b - - 13 38Move number 76Board:
+. . . . . r . .
+. . r . q . k p
+. . . . . p b .
+p . . . p . P .
+. p . . . . n .
+. . . . . K . P
+P p R . . . . .
+. . . . . R . NFEN: 5r2/2r1q1kp/5pb1/p3p1P1/1p4n1/5K1P/PpR5/5R1N w - - 14 39Move number 77Board:
+. . . . . r . .
+. . r . q . k p
+. . R . . p b .
+p . . . p . P .
+. p . . . . n .
+. . . . . K . P
+P p . . . . . .
+. . . . . R . NFEN: 5r2/2r1q1kp/2R2pb1/p3p1P1/1p4n1/5K1P/Pp6/5R1N b - - 15 39Move number 78Board:
+. . . . . r . .
+. r . . q . k p
+. . R . . p b .
+p . . . p . P .
+. p . . . . n .
+. . . . . K . P
+P p . . . . . .
+. . . . . R . NFEN: 5r2/1r2q1kp/2R2pb1/p3p1P1/1p4n1/5K1P/Pp6/5R1N w - - 16 40Move number 79Board:
+. . . . . r . .
+. r . . q . k p
+. . R . . p b .
+p . . . p . P .
+. p . . . . n .
+. . . . . K . P
+P p . . . . . .
+R . . . . . . NFEN: 5r2/1r2q1kp/2R2pb1/p3p1P1/1p4n1/5K1P/Pp6/R6N b - - 17 40Move number 80Board:
+. . . . . r . .
+. r . . q . k p
+. . R . . p b .
+p . . . p . P .
+. p . . . . . .
+. . . . . K . P
+P p . . . . . n
+R . . . . . . NFEN: 5r2/1r2q1kp/2R2pb1/p3p1P1/1p6/5K1P/Pp5n/R6N w - - 18 41Move number 81Board:
+. . . . . r . .
+. r . . q . k p
+. . R . . p b .
+p . . . p . P .
+. p . . . . . .
+. . . . K . . P
+P p . . . . . n
+R . . . . . . NFEN: 5r2/1r2q1kp/2R2pb1/p3p1P1/1p6/4K2P/Pp5n/R6N b - - 19 41Move number 82Board:
+. . . . . r . .
+. r . . . . k p
+. . R . q p b .
+p . . . p . P .
+. p . . . . . .
+. . . . K . . P
+P p . . . . . n
+R . . . . . . NFEN: 5r2/1r4kp/2R1qpb1/p3p1P1/1p6/4K2P/Pp5n/R6N w - - 20 42Move number 83Board:
+. . . . . r . .
+. r . . . . k p
+. . R . q p b .
+p . . . p . P .
+. p . . . . . .
+. . . . K . . P
+P p . . . . . n
+. . . R . . . NFEN: 5r2/1r4kp/2R1qpb1/p3p1P1/1p6/4K2P/Pp5n/3R3N b - - 21 42Move number 84Board:
+. . . . . r . .
+. r . . . . k p
+. . R q . p b .
+p . . . p . P .
+. p . . . . . .
+. . . . K . . P
+P p . . . . . n
+. . . R . . . NFEN: 5r2/1r4kp/2Rq1pb1/p3p1P1/1p6/4K2P/Pp5n/3R3N w - - 22 43Move number 85Board:
+. . . . . r . .
+. r . . . . k p
+. . R q . p b .
+p . . . p . P .
+. p . . . . . .
+. . . . K . . P
+P p . . . . . n
+. . R . . . . NFEN: 5r2/1r4kp/2Rq1pb1/p3p1P1/1p6/4K2P/Pp5n/2R4N b - - 23 43Move number 86Board:
+. . . . . r . .
+. r . . . . k p
+. . R q . p . .
+p . . . p . P .
+. p . . . . . .
+. . . b K . . P
+P p . . . . . n
+. . R . . . . NFEN: 5r2/1r4kp/2Rq1p2/p3p1P1/1p6/3bK2P/Pp5n/2R4N w - - 24 44Move number 87Board:
+. . . . . r . .
+. r . . . . k p
+. . . q . p . .
+p . . . p . P .
+. p R . . . . .
+. . . b K . . P
+P p . . . . . n
+. . R . . . . NFEN: 5r2/1r4kp/3q1p2/p3p1P1/1pR5/3bK2P/Pp5n/2R4N b - - 25 44Move number 88Board:
+. . . . . r . .
+. r . . . . k p
+. . . q . . . .
+p . . . p . p .
+. p R . . . . .
+. . . b K . . P
+P p . . . . . n
+. . R . . . . NFEN: 5r2/1r4kp/3q4/p3p1p1/1pR5/3bK2P/Pp5n/2R4N w - - 0 45Move number 89Board:
+. . . . . r . .
+. r . . . . k p
+. . . q . . . .
+p . . . p . p .
+. p R . . . . P
+. . . b K . . .
+P p . . . . . n
+. . R . . . . NFEN: 5r2/1r4kp/3q4/p3p1p1/1pR4P/3bK3/Pp5n/2R4N b - - 0 45Move number 90Board:
+. . . . . r . .
+. r . . . . k p
+. . . q . . . .
+p . . . p . p .
+. p R . . . . P
+. . . b K . . .
+P p . . . . . .
+. . R . . n . NFEN: 5r2/1r4kp/3q4/p3p1p1/1pR4P/3bK3/Pp6/2R2n1N w - - 1 46Move number 91Board:
+. . . . . r . .
+. r . . . . k p
+. . . q . . . .
+p . . . p . p .
+. p R . . . . P
+. . . b K . . .
+P p . . . . . .
+. . . . . R . NFEN: 5r2/1r4kp/3q4/p3p1p1/1pR4P/3bK3/Pp6/5R1N b - - 0 46Move number 92Board:
+. . . . . r . .
+r . . . . . k p
+. . . q . . . .
+p . . . p . p .
+. p R . . . . P
+. . . b K . . .
+P p . . . . . .
+. . . . . R . NFEN: 5r2/r5kp/3q4/p3p1p1/1pR4P/3bK3/Pp6/5R1N w - - 1 47Move number 93Board:
+. . . . . r . .
+r . . . . . k p
+. . R q . . . .
+p . . . p . p .
+. p . . . . . P
+. . . b K . . .
+P p . . . . . .
+. . . . . R . NFEN: 5r2/r5kp/2Rq4/p3p1p1/1p5P/3bK3/Pp6/5R1N b - - 2 47Move number 94Board:
+. . . . . r . .
+r . . . . . k p
+. . R q . . . .
+p . . . p b p .
+. p . . . . . P
+. . . . K . . .
+P p . . . . . .
+. . . . . R . NFEN: 5r2/r5kp/2Rq4/p3pbp1/1p5P/4K3/Pp6/5R1N w - - 3 48Move number 95Board:
+. . . . . r . .
+r . . . . . k p
+. . R q . . . .
+p . . . p b p .
+. p . . . . . P
+. . . . K . . .
+P p . . . . . .
+. R . . . . . NFEN: 5r2/r5kp/2Rq4/p3pbp1/1p5P/4K3/Pp6/1R5N b - - 4 48Move number 96Board:
+. . . . . r . .
+r . . . . . k p
+. . q . . . . .
+p . . . p b p .
+. p . . . . . P
+. . . . K . . .
+P p . . . . . .
+. R . . . . . NFEN: 5r2/r5kp/2q5/p3pbp1/1p5P/4K3/Pp6/1R5N w - - 0 49Move number 97Board:
+. . . . . r . .
+r . . . . . k p
+. . q . . . . .
+p . . . p b P .
+. p . . . . . .
+. . . . K . . .
+P p . . . . . .
+. R . . . . . NFEN: 5r2/r5kp/2q5/p3pbP1/1p6/4K3/Pp6/1R5N b - - 0 49Move number 98Board:
+. . . . . r . .
+r . . . . . k p
+. . . q . . . .
+p . . . p b P .
+. p . . . . . .
+. . . . K . . .
+P p . . . . . .
+. R . . . . . NFEN: 5r2/r5kp/3q4/p3pbP1/1p6/4K3/Pp6/1R5N w - - 1 50Move number 99Board:
+. . . . . r . .
+r . . . . . k p
+. . . q . . . .
+p . . . p b P .
+. p . . . . . .
+. . . . K . . .
+P p . . . . . .
+. . . R . . . NFEN: 5r2/r5kp/3q4/p3pbP1/1p6/4K3/Pp6/3R3N b - - 2 50Move number 100Board:
+. . . . . r . .
+r . . . . . k p
+. . . q . . . .
+p . . . p . P .
+. p . . . . . .
+. . . . K . . .
+P p b . . . . .
+. . . R . . . NFEN: 5r2/r5kp/3q4/p3p1P1/1p6/4K3/Ppb5/3R3N w - - 3 51GAME OVERExceeded move limits, it's a tiePlayer 1 time: 0.011844635009765625Player 2 time: 0.011327743530273438

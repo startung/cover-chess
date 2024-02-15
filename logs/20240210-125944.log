@@ -1,0 +1,217 @@
+Bots initialized, white: Number Piece(3), black: Value Piece(3)Move number 0Board:
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+P P P P P P P P
+R N B Q K B N RFEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1Player 1 move: g1h3, score: -16Move number 1Board:
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . . N
+P P P P P P P P
+R N B Q K B . RFEN: rnbqkbnr/pppppppp/8/8/8/7N/PPPPPPPP/RNBQKB1R b KQkq - 1 1Player 2 move: g7g5, score: -137Move number 2Board:
+r n b q k b n r
+p p p p p p . p
+. . . . . . . .
+. . . . . . p .
+. . . . . . . .
+. . . . . . . N
+P P P P P P P P
+R N B Q K B . RFEN: rnbqkbnr/pppppp1p/8/6p1/8/7N/PPPPPPPP/RNBQKB1R w KQkq - 0 2Player 1 move: h3g5, score: -15Move number 3Board:
+r n b q k b n r
+p p p p p p . p
+. . . . . . . .
+. . . . . . N .
+. . . . . . . .
+. . . . . . . .
+P P P P P P P P
+R N B Q K B . RFEN: rnbqkbnr/pppppp1p/8/6N1/8/8/PPPPPPPP/RNBQKB1R b KQkq - 0 2Player 2 move: g8h6, score: -137Move number 4Board:
+r n b q k b . r
+p p p p p p . p
+. . . . . . . n
+. . . . . . N .
+. . . . . . . .
+. . . . . . . .
+P P P P P P P P
+R N B Q K B . RFEN: rnbqkb1r/pppppp1p/7n/6N1/8/8/PPPPPPPP/RNBQKB1R w KQkq - 1 3Player 1 move: g5e6, score: -14Move number 5Board:
+r n b q k b . r
+p p p p p p . p
+. . . . N . . n
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+P P P P P P P P
+R N B Q K B . RFEN: rnbqkb1r/pppppp1p/4N2n/8/8/8/PPPPPPPP/RNBQKB1R b KQkq - 2 3Player 2 move: h8g8, score: -129Move number 6Board:
+r n b q k b r .
+p p p p p p . p
+. . . . N . . n
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+P P P P P P P P
+R N B Q K B . RFEN: rnbqkbr1/pppppp1p/4N2n/8/8/8/PPPPPPPP/RNBQKB1R w KQq - 3 4Player 1 move: e6f8, score: -14Move number 7Board:
+r n b q k N r .
+p p p p p p . p
+. . . . . . . n
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+P P P P P P P P
+R N B Q K B . RFEN: rnbqkNr1/pppppp1p/7n/8/8/8/PPPPPPPP/RNBQKB1R b KQq - 0 4Player 2 move: g8g3, score: -129Move number 8Board:
+r n b q k N . .
+p p p p p p . p
+. . . . . . . n
+. . . . . . . .
+. . . . . . . .
+. . . . . . r .
+P P P P P P P P
+R N B Q K B . RFEN: rnbqkN2/pppppp1p/7n/8/8/6r1/PPPPPPPP/RNBQKB1R w KQq - 1 5Player 1 move: f8d7, score: -14Move number 9Board:
+r n b q k . . .
+p p p N p p . p
+. . . . . . . n
+. . . . . . . .
+. . . . . . . .
+. . . . . . r .
+P P P P P P P P
+R N B Q K B . RFEN: rnbqk3/pppNpp1p/7n/8/8/6r1/PPPPPPPP/RNBQKB1R b KQq - 0 5Player 2 move: h6g4, score: -126Move number 10Board:
+r n b q k . . .
+p p p N p p . p
+. . . . . . . .
+. . . . . . . .
+. . . . . . n .
+. . . . . . r .
+P P P P P P P P
+R N B Q K B . RFEN: rnbqk3/pppNpp1p/8/8/6n1/6r1/PPPPPPPP/RNBQKB1R w KQq - 1 6Player 1 move: d7f8, score: -14Move number 11Board:
+r n b q k N . .
+p p p . p p . p
+. . . . . . . .
+. . . . . . . .
+. . . . . . n .
+. . . . . . r .
+P P P P P P P P
+R N B Q K B . RFEN: rnbqkN2/ppp1pp1p/8/8/6n1/6r1/PPPPPPPP/RNBQKB1R b KQq - 2 6Player 2 move: d8d7, score: -120Move number 12Board:
+r n b . k N . .
+p p p q p p . p
+. . . . . . . .
+. . . . . . . .
+. . . . . . n .
+. . . . . . r .
+P P P P P P P P
+R N B Q K B . RFEN: rnb1kN2/pppqpp1p/8/8/6n1/6r1/PPPPPPPP/RNBQKB1R w KQq - 3 7Player 1 move: f8h7, score: -14Move number 13Board:
+r n b . k . . .
+p p p q p p . N
+. . . . . . . .
+. . . . . . . .
+. . . . . . n .
+. . . . . . r .
+P P P P P P P P
+R N B Q K B . RFEN: rnb1k3/pppqpp1N/8/8/6n1/6r1/PPPPPPPP/RNBQKB1R b KQq - 0 7Player 2 move: d7d3, score: -119Move number 14Board:
+r n b . k . . .
+p p p . p p . N
+. . . . . . . .
+. . . . . . . .
+. . . . . . n .
+. . . q . . r .
+P P P P P P P P
+R N B Q K B . RFEN: rnb1k3/ppp1pp1N/8/8/6n1/3q2r1/PPPPPPPP/RNBQKB1R w KQq - 1 8Player 1 move: h7f8, score: -14Move number 15Board:
+r n b . k N . .
+p p p . p p . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . n .
+. . . q . . r .
+P P P P P P P P
+R N B Q K B . RFEN: rnb1kN2/ppp1pp2/8/8/6n1/3q2r1/PPPPPPPP/RNBQKB1R b KQq - 2 8Player 2 move: e8f8, score: -119Move number 16Board:
+r n b . . k . .
+p p p . p p . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . n .
+. . . q . . r .
+P P P P P P P P
+R N B Q K B . RFEN: rnb2k2/ppp1pp2/8/8/6n1/3q2r1/PPPPPPPP/RNBQKB1R w KQ - 0 9Player 1 move: h1g1, score: -13Move number 17Board:
+r n b . . k . .
+p p p . p p . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . n .
+. . . q . . r .
+P P P P P P P P
+R N B Q K B R .FEN: rnb2k2/ppp1pp2/8/8/6n1/3q2r1/PPPPPPPP/RNBQKBR1 b Q - 1 9Player 2 move: f8g8, score: -119Move number 18Board:
+r n b . . . k .
+p p p . p p . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . n .
+. . . q . . r .
+P P P P P P P P
+R N B Q K B R .FEN: rnb3k1/ppp1pp2/8/8/6n1/3q2r1/PPPPPPPP/RNBQKBR1 w Q - 2 10Player 1 move: g1h1, score: -13Move number 19Board:
+r n b . . . k .
+p p p . p p . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . n .
+. . . q . . r .
+P P P P P P P P
+R N B Q K B . RFEN: rnb3k1/ppp1pp2/8/8/6n1/3q2r1/PPPPPPPP/RNBQKB1R b Q - 3 10Player 2 move: g8h8, score: -119Move number 20Board:
+r n b . . . . k
+p p p . p p . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . n .
+. . . q . . r .
+P P P P P P P P
+R N B Q K B . RFEN: rnb4k/ppp1pp2/8/8/6n1/3q2r1/PPPPPPPP/RNBQKB1R w Q - 4 11Player 1 move: h1g1, score: -13Move number 21Board:
+r n b . . . . k
+p p p . p p . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . n .
+. . . q . . r .
+P P P P P P P P
+R N B Q K B R .FEN: rnb4k/ppp1pp2/8/8/6n1/3q2r1/PPPPPPPP/RNBQKBR1 b Q - 5 11Player 2 move: h8g8, score: -119Move number 22Board:
+r n b . . . k .
+p p p . p p . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . n .
+. . . q . . r .
+P P P P P P P P
+R N B Q K B R .FEN: rnb3k1/ppp1pp2/8/8/6n1/3q2r1/PPPPPPPP/RNBQKBR1 w Q - 6 12Player 1 move: g1h1, score: -13Move number 23Board:
+r n b . . . k .
+p p p . p p . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . n .
+. . . q . . r .
+P P P P P P P P
+R N B Q K B . RFEN: rnb3k1/ppp1pp2/8/8/6n1/3q2r1/PPPPPPPP/RNBQKB1R b Q - 7 12Player 2 move: g8h8, score: -119Move number 24Board:
+r n b . . . . k
+p p p . p p . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . n .
+. . . q . . r .
+P P P P P P P P
+R N B Q K B . RFEN: rnb4k/ppp1pp2/8/8/6n1/3q2r1/PPPPPPPP/RNBQKB1R w Q - 8 13Player 1 move: h1g1, score: -13Move number 25Board:
+r n b . . . . k
+p p p . p p . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . n .
+. . . q . . r .
+P P P P P P P P
+R N B Q K B R .FEN: rnb4k/ppp1pp2/8/8/6n1/3q2r1/PPPPPPPP/RNBQKBR1 b Q - 9 13Player 2 move: h8g8, score: -119Move number 26Board:
+r n b . . . k .
+p p p . p p . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . n .
+. . . q . . r .
+P P P P P P P P
+R N B Q K B R .FEN: rnb3k1/ppp1pp2/8/8/6n1/3q2r1/PPPPPPPP/RNBQKBR1 w Q - 10 14
